@@ -44,7 +44,7 @@ public class InsertSQL {
 			
 			//4.SQL(쿼리문)문 작성
 			String sql = "INSERT INTO member VALUES "+
-			" ('test4' , '4444' , '뿅길동' , SYSDATE) ";
+			" ('test1' , '8888' , '이태랑' , SYSDATE) ";
 			
 			//5.쿼리 실행 및 결과값 반환
 			/*
