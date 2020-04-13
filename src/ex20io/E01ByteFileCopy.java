@@ -15,7 +15,7 @@ import java.io.OutputStream;
  */
 public class E01ByteFileCopy {
 	/*
-	 IO관련 자ㅏㄱ업에서는 많은 부분에서 예외처리가 필요하다
+	 IO관련 작업에서는 많은 부분에서 예외처리가 필요하다
 	 이때 예외를 throw하는 것 보다 try~catch로 예외처리를
 	 해주는것을 권장하고 있다. 예외를 무시하게되면 문제가
 	 생겼을 때 적절한 조치를 취하기 힘들기 때문이다.

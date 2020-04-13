@@ -64,7 +64,7 @@ public class Ex04HashSet1 {
 		 	저장에 성공하여 true가 반환된다.
 		 
 		 */
-		Teacher teacher2 = new Teacher("김구선생", 55, "역사");
+		Teacher teacher2 = new Teacher("트래비스스캇", 33, "랩퍼");
 		System.out.println(set.add(teacher2)? "성공" : "실패");//성공
 		System.out.println("[중복(teacher2)저장후 객체수] : "+
 					set.size());//6개
@@ -98,7 +98,7 @@ public class Ex04HashSet1 {
 			//1-7]검색
 			System.out.println(set.contains(strObject1) ?
 					"strObject1 있엉" : "strObject없엉");
-			System.out.println(set.contains("java")?
+			System.out.println(set.contains("JAVA")?
 					"java이따!!!!" : "없쪙...");
 			
 			//1-8]삭제
